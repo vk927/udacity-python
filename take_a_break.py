@@ -1,6 +1,6 @@
 #this pgm plays a video after every 2 hours from the time when you start runnning the pgm
 #usecase - use this while working for long hours - so that it will play your favuorite video
-#after
+#after a choosen period of time
 
 import time
 import webbrowser
