@@ -10,7 +10,7 @@ no_of_breaks=int(input("How many breaks you want take ?"))
 print("current time is ",time.ctime()," \nFrom Now onwards your favourtite video will be played after every two hours")
 x=0
 while (x < no_of_breaks):
-    time.sleep(frequency*60*60)
+    time.sleep(60)
     x=x+1
     webbrowser.open("https://www.youtube.com/watch?v=DQ4mraAx23I")
 
